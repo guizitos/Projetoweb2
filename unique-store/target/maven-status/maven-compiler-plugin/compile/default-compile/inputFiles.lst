@@ -1,0 +1,15 @@
+C:\Users\User\unique-store\src\main\java\com\unique\store\controller\AuthController.java
+C:\Users\User\unique-store\src\main\java\com\unique\store\controller\CarrinhoController.java
+C:\Users\User\unique-store\src\main\java\com\unique\store\controller\HomeController.java
+C:\Users\User\unique-store\src\main\java\com\unique\store\controller\ProdutoRestController.java
+C:\Users\User\unique-store\src\main\java\com\unique\store\model\Carrinho.java
+C:\Users\User\unique-store\src\main\java\com\unique\store\model\Produto.java
+C:\Users\User\unique-store\src\main\java\com\unique\store\model\Usuario.java
+C:\Users\User\unique-store\src\main\java\com\unique\store\repository\CarrinhoRepository.java
+C:\Users\User\unique-store\src\main\java\com\unique\store\repository\ProdutoRepository.java
+C:\Users\User\unique-store\src\main\java\com\unique\store\repository\UsuarioRepository.java
+C:\Users\User\unique-store\src\main\java\com\unique\store\service\CarrinhoService.java
+C:\Users\User\unique-store\src\main\java\com\unique\store\service\CustomUserDetailsService.java
+C:\Users\User\unique-store\src\main\java\com\unique\store\service\ProdutoService.java
+C:\Users\User\unique-store\src\main\java\com\unique\store\service\UsuarioService.java
+C:\Users\User\unique-store\src\main\java\com\unique\store\UniqueStoreApplication.java

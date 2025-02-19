@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+}
+
+.login-container {
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 1000px;
+    max-width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.form-container {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #ffffff;
+}
+
+.form-container h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #070707;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    background: #5757572c;
+    border: 1px solid #ccc;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    background: #5757572d;
+    border-color: #5844f2;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background: #5844f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #001c62ca;
+}
+
+.register-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #0e0066;
+}
+
+.register-text a {
+    color: #5844f2;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+    }
+
+    .image-container {
+        height: 200px;
+    }
+
+    .form-container {
+        padding: 30px;
+    }
+
+    .form-container h2 {
+        font-size: 20px;
+    }
+
+    .form-control {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    button {
+        padding: 12px;
+    }
+}
